@@ -1,6 +1,6 @@
-# Pet Shop
+# Online Shop
 
-**An online shop created with HTML**
+**An online shop created with Html**
 
 _This is created to practice git_
 
