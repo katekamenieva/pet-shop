@@ -11,7 +11,7 @@ section table {
   position: absolute;
   clip-path: rect(0 0 0 0);
 }
-ul {
+ul#menu-tabs-navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,11 +19,11 @@ ul {
   background-color: #333;
 }
 
-li {
+#menu-tabs-navigation li {
   float: left;
 }
 
-li a {
+#menu-tabs-navigation li a {
   display: block;
   color: white;
   text-align: center;
@@ -31,11 +31,11 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.working-hours-link-nav) {
+#menu-tabs-navigation li a:hover:not(.working-hours-link-nav) {
   background-color: #111;
 }
 
-.working-hours-link-nav {
+#menu-tabs-navigation .working-hours-link-nav {
   background-color: #04aa6d;
 }
 
