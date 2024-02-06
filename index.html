@@ -13,33 +13,33 @@
   <body>
     <header id="header">
       <h1 class="visuallyhidden">Cat school</h1>
+      <nav class="mainmenu">
+        <div class="logo-element">
+          <a href="/" class="header-logo">
+            <img
+              src="images/IMG000.jpg"
+              alt="Cat school logo"
+              width="100"
+              height="100"
+          /></a>
+        </div>
+        <div>
+          <ul class="menu-navigation-container" id="menu-tabs-navigation">
+            <li><a href="#products-section">Products</a></li>
+            <li><a href="#membership-section">Join Cat School</a></li>
+            <li><a href="#training-tip-articles">Training Tips</a></li>
+            <li><a href="#about-us-section">About Us</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="#contact-section">Contacts</a></li>
+            <li style="float: right">
+              <a class="working-hours-link-nav" href="#working_hours"
+                >Working Hours</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <nav class="mainmenu">
-      <div class="logo-element">
-        <a href="/" class="header-logo">
-          <img
-            src="images/IMG000.jpg"
-            alt="Cat school logo"
-            width="100"
-            height="100"
-        /></a>
-      </div>
-      <div>
-        <ul class="menu-navigation-container" id="menu-tabs-navigation">
-          <li><a href="#products-section">Products</a></li>
-          <li><a href="#">Join Cat School</a></li>
-          <li><a href="">Training Tips</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Login</a></li>
-          <li><a href="">Contacts</a></li>
-          <li style="float: right">
-            <a class="working-hours-link-nav" href="#working_hours"
-              >Working Hours</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
     <main>
       <section id="products-section">
         <h2>Products</h2>
@@ -47,19 +47,26 @@
           <h3>Clicker training tools</h3>
           <div class="clicker-training-text-section">
             <p>This training kit includes:</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            <section>
+              <ul>
+                <li>
+                  A telescoping target stick to increase your cat's activity
+                </li>
+                <li>
+                  A quiet hand-held clicker purrfect for clicker training cats
+                </li>
+                <li>A handy reference guidebook with tutorials and tips</li>
+                <li>
+                  Get access to our online learning environment for free for 30
+                  days
+                </li>
+              </ul>
+              <button type="button" value="text">Get Your Tools</button>
+            </section>
           </div>
         </section>
       </section>
-      <section>
+      <section id="membership-section">
         <h2>The Cat School Membership</h2>
         <video
           controls
@@ -77,27 +84,132 @@
             <a href="video/cat_video1.mp4">link to the video</a> instead.
           </p>
         </video>
-        <div>
-          <section>
-            <h2>Best games for cats</h2>
-          </section>
-          <iframe
-            src="https://player.vimeo.com/video/98156656?h=ca568da821&color=ff003b&title=0&byline=0&portrait=0"
-            width="640"
-            height="360"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
+        <iframe
+          src="https://player.vimeo.com/video/98156656?h=ca568da821&color=ff003b&title=0&byline=0&portrait=0"
+          width="640"
+          height="360"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+        >
+        </iframe>
+      </section>
+      <section id="training-tip-articles">
+        <h2>Training Tips</h2>
+        <article>
+          <div>
+            <h3>A Training Guide to Cat Nail Trims</h3>
+            <div>
+              <ul>
+                <li>by Cat School</li>
+                <li>May 28, 2023</li>
+              </ul>
+            </div>
+            <img
+              src="images/article1.webp"
+              alt="cat getting nails trimmed"
+              title="Cat getting nails trimmed"
+              height="270"
+              width="380"
+            />
+            <p>
+              As a cat guardian, you've likely wondered, “Do cats need nail
+              trims?” And “If cat nail trims are necessary, how do you trim a
+              cat's nails?” Maybe you've even tried clipping those claws before
+              but have yet to succeed or it was a stressful experience for
+              everyone involved.
+            </p>
+            <button type="button" value="text">Read more</button>
+          </div>
+        </article>
+        <article>
+          <div>
+            <h3>How To Socialize A Kitten</h3>
+            <div>
+              <ul>
+                <li>by Cat School</li>
+                <li>May 31, 2023</li>
+              </ul>
+            </div>
+            <img
+              src="images/article2.png"
+              alt="Little kitten"
+              title="Kitten"
+              height="270"
+              width="380"
+            />
+            <p>
+              Congratulations on your new kitten! You've brought them to their
+              new home and are eagerly wondering what your next steps are. While
+              you may be excited to jump right into clicker training,
+              socializing your kitten should be the main focus.
+            </p>
+            <button type="button" value="text">Read more</button>
+          </div>
+        </article>
+        <article>
+          <div>
+            <h3>Clicker Training Cats: All Your Questions Answered</h3>
+            <div>
+              <ul>
+                <li>by Cat School</li>
+                <li>June 04, 2023</li>
+              </ul>
+            </div>
+            <img
+              src="images/article3.webp"
+              alt="Cat waiting for a treat"
+              title="Cat with a treat"
+              height="270"
+              width="380"
+            />
+            <p>
+              Have you heard?! Clicker training cats is all the rage! Why?
+              Because it is a fun and engaging activity that provides both
+              physical and mental stimulation for your cat! Whether you want to
+              teach your cat fun tricks, work on obedience skills, or train out
+              unwanted behaviors, clicker training is for you.
+            </p>
+            <button type="button" value="text">Read more</button>
+          </div>
+        </article>
+      </section>
+      <section id="about-us-section">
+        <h2>About Us</h2>
+        <img
+          src="images/about us.webp"
+          alt="Cat jumping"
+          height="400"
+          width="950"
+        />
+        <p>
+          Cat School was founded in <time datetime="2019">2019</time> by
+          <em>Ms.Julie Johnes</em> and built on a foundation that
+          <strong> every indoor cat deserves to live an enriched life </strong
+          >while at the same time becoming confident and comfortable with normal
+          life events such as vet visits and moving. I became an
+          <abbr title="Associate Certified Applied Animal Behaviorist"
+            >ACAAB</abbr
           >
-          </iframe>
-        </div>
-        <section>
-          <ul>
-            <li><a href="">test</a></li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-          </ul>
+          to share the most progressive science-based methods to improve the
+          welfare of all animals.
+        </p>
+        <section id="review-section">
+          <div>
+            <h3>What our clients say about us:</h3>
+            <q
+              >I love spending time clicker training my cat, Simon. The tricks
+              help keep his mind busy and his body active!</q
+            ><cite>- Sarah Gibson</cite>
+          </div>
+          <br />
+          <div>
+            <img
+              src="images/review.webp"
+              alt="Cat is giving high five"
+              height="270"
+              width="380"
+            />
+          </div>
         </section>
       </section>
       <section id="working_hours">
@@ -127,41 +239,76 @@
           </tbody>
         </table>
       </section>
-      <section>
-        <h3>Our first image!</h3>
-        <img
-          src="images/code-8mb (3888x2592).jpg"
-          alt="Code on the screen"
-          width="320"
-          height="240"
-        />
+      <section id="contact-section">
+        <h3>Contact us:</h3>
+        <section id="locations">
+          <h4>Our Locations</h4>
+          <p>
+            Discover our diverse range of products and services at our
+            strategically located shops designed to cater to your needs. With a
+            commitment to accessibility and convenience, we have established
+            multiple locations across to ensure you can easily find and enjoy
+            our offerings
+          </p>
+          <details>
+            <summary>New York - 21st Street</summary>
+            <p>An American style place with a feel for US IT power</p>
+          </details>
+          <details>
+            <summary>London - Chelsea 22</summary>
+            <p>An stylish vintage store with modern gadgets</p>
+          </details>
+          <details>
+            <summary>Paris - Le Deux 102</summary>
+            <p>Have the power of the future with the romantisism of France</p>
+          </details>
+        </section>
+        <section>
+          <p>You can contact Cat School at any time:</p>
+          <address>
+            <a href="mailto:contact@catschool.com">contact@catschool.com</a
+            ><br />
+            <a href="tel:+14155550132">+1 (415) 555‑0132</a>
+          </address>
+          <img
+            src="images/code-8mb (3888x2592).jpg"
+            title="Code"
+            alt="Code on the screen"
+            width="320"
+            height="240"
+          />
+        </section>
       </section>
       <section>
         <h3>Fill out the form to contact us:</h3>
-        <form action="/action_page.php">
-          <label for="fname">First name:</label> <br />
-          <input type="text" id="fname" name="fname" placeholder="John" /><br />
-          <label for="lname">Last name:</label><br />
-          <input type="text" id="lname" name="lname" placeholder="Doe" /><br />
-          <label for="email">Email</label> <br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="johndoe@gmail.com"
-          />
-          <br />
-          <input type="checkbox" id="checkbox" />
-          <span>
-            I agree to the <a href="#">Privacy Policy</a> and
-            <a href="">Terms and Conditions</a>.
-          </span>
-          <br />
-          <input type="submit" value="Submit" /> <br />
-          <br />
+        <form action="/submit" id="contact-form">
+          <fieldset>
+            <label for="fname">First name:</label> <br />
+            <input type="text" id="fname" name="fname" value="John" /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" value="Doe" /><br />
+            <label for="email">Email</label> <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value="johndoe@gmail.com"
+            />
+            <br />
+            <input type="checkbox" id="checkbox" />
+            <span>
+              I agree to the <a href="">Privacy Policy</a> and
+              <a href="">Terms and Conditions</a>.
+            </span>
+            <br />
+            <input type="submit" value="Submit" /> <br />
+          </fieldset>
         </form>
       </section>
     </main>
-    <footer><span>All rights reserved</span></footer>
+    <footer id="page-footer">
+      <span>All rights reserved © 2024 </span
+      ><small>Last updated on 06.02.2024</small>
+    </footer>
   </body>
 </html>
