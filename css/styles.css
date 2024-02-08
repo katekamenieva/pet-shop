@@ -30,23 +30,31 @@ ul#menu-tabs-navigation {
   display: flex;
 }
 
-.tips-wrapper {
-  display: inline-block;
+.tips-heading {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
 }
 .training-tips-blocks {
   text-align: center;
-  padding: 20px 0;
-  vertical-align: auto;
+  padding: 20px;
+  vertical-align: top;
 }
 .training-tip-article {
   display: inline-block;
-  max-width: 250px;
+  max-width: 350px;
   width: 100%;
   margin: 0 20px;
-  /* padding: 20px 25px; */
-  border: 2px solid #111;
-  width: 250px;
+  padding: 20px 25px;
+  border: 1px solid #111;
   padding: 0;
+  height: 540px;
+  vertical-align: top;
+}
+.tt-title-caption {
+  min-height: 118px;
 }
 
 .tips-images-block {
@@ -63,7 +71,7 @@ ul#menu-tabs-navigation {
 }
 .tips-content-text {
   text-align: center;
-  width: 250px;
+  width: 270px;
 }
 
 .tips-info li {
@@ -75,6 +83,24 @@ ul#menu-tabs-navigation {
   content: "|";
   color: #000000e0;
   padding-right: 5px;
+}
+
+.tips-content {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.tips-button {
+  margin-bottom: 10px;
+  background-color: #b5d9dd;
+  border: 1px solid #b9d3d6;
+  border-radius: 10px;
+  padding: 2px 7px;
+}
+.tips-button:hover {
+  background-color: #b5d9dd;
+  opacity: 1;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 section table {
   background: rgb(238, 174, 202);
