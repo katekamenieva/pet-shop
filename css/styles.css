@@ -70,8 +70,12 @@ ul#menu-tabs-navigation {
   object-fit: cover;
 }
 .tips-content-text {
-  text-align: center;
-  width: 270px;
+  display: inline-block;
+  text-align: left;
+  width: calc(80%);
+  height: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .tips-info li {
@@ -87,7 +91,7 @@ ul#menu-tabs-navigation {
 
 .tips-content {
   display: inline-block;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
 }
 .tips-button {
   margin-bottom: 10px;
