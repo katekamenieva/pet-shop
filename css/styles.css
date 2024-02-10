@@ -75,7 +75,6 @@ ul#menu-tabs-navigation {
   width: calc(80%);
   height: 130px;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .tips-info li {
