@@ -6,42 +6,53 @@
     <meta name="description" content="Cat school" />
     <meta name="keywords" content="Cat, tricks, school, activity" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Online school for cats</title>
+    <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
     <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="js/script.js" type="text/javascript"></script>
+    <title>Online school for cats</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
   </head>
   <body>
-    <header id="header">
-      <h1 class="visuallyhidden">Cat school</h1>
-      <nav class="main-nav">
-        <div class="logo-element">
-          <a href="/" class="header-logo">
-            <img
-              src="images/IMG000.jpg"
-              alt="Cat school logo"
-              width="100"
-              height="100"
-          /></a>
-        </div>
-        <div>
-          <ul class="menu-navigation-container" id="menu-tabs-navigation">
-            <li><a href="#products-section">Products</a></li>
-            <li><a href="#membership-section">Join Cat School</a></li>
-            <li><a href="#training-tip-sections">Training Tips</a></li>
-            <li><a href="#about-us-section">About Us</a></li>
-            <li><a href="">Login</a></li>
-            <li><a href="#contact-section">Contacts</a></li>
-            <li style="float: right">
-              <a class="working-hours-link-nav" href="#working_hours"
-                >Working Hours</a
-              >
-            </li>
-          </ul>
-        </div>
+    <header class="header">
+      <img class="logo" src="./images/logo.png" alt="Cat picture" />
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li><a href="#membership-section">Join Cat School</a></li>
+          <li><a href="#training-tip-sections">Training Tips</a></li>
+          <li><a href="#about-us-section">About Us</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="#contact-section">Contacts</a></li>
+          <li>
+            <a class="working-hours-link-nav" href="#working_hours"
+              >Working Hours</a
+            >
+          </li>
+        </ul>
       </nav>
+      <form class="header-form">
+        <label for="search"></label>
+        <input name="search" type="text" placeholder="Search" />
+        <button class="button" type="submit">Search</button>
+      </form>
     </header>
     <main>
+      <section class="hero">
+        <img src="./images/image 2.png" alt="Cat sitting" class="hero-img" />
+        <span class="yellow-circle"></span>
+        <div class="hero-txt">
+          <h1>Welcome to Cat School!</h1>
+          <p class="hero-p">
+            We can help you teach your cat fun and practical skills to enrich
+            their life and strengthen the cat-human bond.
+          </p>
+        </div>
+      </section>
+
       <section id="products-section">
         <h2>Products</h2>
         <section>
@@ -77,12 +88,12 @@
           loop
           muted
           preload="auto"
-          poster="cat.png"
+          poster="./images/cat.png"
         >
-          <source src="video/cat_video1.mp4" type="video/mp4" />
+          <source src="./video/cat_video1.mp4" type="video/mp4" />
           <p>
             Your browser doesn't support this video. Here is a
-            <a href="video/cat_video1.mp4">link to the video</a> instead.
+            <a href="./video/cat_video1.mp4">link to the video</a> instead.
           </p>
         </video>
         <iframe
@@ -112,7 +123,7 @@
             <div class="tips-images-block">
               <img
                 class="tips-img"
-                src="images/article1.webp"
+                src="./images/article1.webp"
                 alt="cat getting nails trimmed"
                 title="Cat getting nails trimmed"
               />
@@ -143,7 +154,7 @@
             <div class="tips-images-block">
               <img
                 class="tips-img"
-                src="images/article2.png"
+                src="./images/article2.png"
                 alt="Little kitten"
                 title="Kitten"
               />
@@ -173,7 +184,7 @@
             <div class="tips-images-block">
               <img
                 class="tips-img"
-                src="images/article3.webp"
+                src="./images/article3.webp"
                 alt="Cat waiting for a treat"
                 title="Cat with a treat"
               />
@@ -194,7 +205,7 @@
       <section id="about-us-section">
         <h2>About Us</h2>
         <img
-          src="images/about us.webp"
+          src="./images/about us.webp"
           alt="Cat jumping"
           height="400"
           width="950"
@@ -222,7 +233,7 @@
           <br />
           <div>
             <img
-              src="images/review.webp"
+              src="./images/review.webp"
               alt="Cat is giving high five"
               height="270"
               width="380"
@@ -289,7 +300,7 @@
             <a href="tel:+14155550132">+1 (415) 555‑0132</a>
           </address>
           <img
-            src="images/code-8mb (3888x2592).jpg"
+            src="./images/code-8mb (3888x2592).jpg"
             title="Code"
             alt="Code on the screen"
             width="320"
