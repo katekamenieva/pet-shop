@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 .button {
   border: none;
@@ -119,7 +119,6 @@ body {
   margin-left: 452px;
   padding-top: 296px;
   vertical-align: top;
-  font-family: "Josefin Sans", sans;
   font-weight: 400px;
   font-style: normal;
   letter-spacing: -5%;
