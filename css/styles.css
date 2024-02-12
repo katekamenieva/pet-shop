@@ -6,13 +6,13 @@ body {
   background-color: #ffa305;
   color: #ffffff;
   cursor: pointer;
-  background-color: #d9afd9;
-  background-image: linear-gradient(90deg, #d9afd9 0%, #97d9e1 100%);
+  background-color: #fbab7e;
+  background-image: linear-gradient(45deg, #fbab7e 0%, #f7ce68 100%);
 }
 .button:hover {
-  background-color: #d9afd9;
-  background-image: linear-gradient(208deg, #d9afd9 0%, #97d9e1 100%);
-  transition: all ease-out 0.5s;
+  background-color: #fbab7e;
+  background-image: linear-gradient(225deg, #fbab7e 0%, #f7ce68 100%);
+  transition: all 0.7s ease-in-out;
 }
 [placeholder] {
   padding-left: 10px;
@@ -119,9 +119,19 @@ body {
   margin-left: 452px;
   padding-top: 296px;
   vertical-align: top;
+  font-family: "Josefin Sans", sans;
+  font-weight: 400px;
+  font-style: normal;
+  letter-spacing: -5%;
+  color: #2b2929;
+}
+.hero-txt h1 {
+  color: #ed5c01;
+  font-size: 50px;
 }
 .hero-txt p {
-  width: 416px;
+  width: 604px;
+  font-size: 40px;
 }
 .tips-heading {
   display: block;
