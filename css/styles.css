@@ -2,6 +2,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   background-color: #ebe3cc;
 }
+/* Navigation styles: */
 
 .header {
   padding: 10px 100px;
@@ -32,10 +33,11 @@ body {
   width: 100%;
 }
 .nav-list li {
-  font-size: 14px;
+  font-size: 16px;
   display: inline-block;
   margin-right: 59px;
-  width: 109px;
+  width: 115px;
+  font-weight: 600;
 }
 .nav-list li a {
   text-decoration: none;
@@ -79,11 +81,12 @@ body {
 [placeholder] {
   padding-left: 10px;
 }
-
 .header-logo {
   height: 70px;
   width: 70px;
 }
+
+/* Hero styles */
 
 .hero {
   display: inline-block;
@@ -99,7 +102,6 @@ body {
   z-index: 2;
   position: relative;
   top: 0;
-  left: 10;
   margin-top: 74px;
   margin-left: 30px;
 }
@@ -115,9 +117,8 @@ body {
   margin-left: 452px;
   padding-top: 296px;
   vertical-align: top;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
-  letter-spacing: -5%;
   color: #2b2929;
 }
 .hero-txt h1 {
@@ -144,6 +145,20 @@ body {
   background-color: #f7d659;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.hero-button i {
+  padding-left: 6px;
+}
+/* Products section */
+.products-h2 {
+  text-align: center;
+}
+
+/* Tips section styles */
+.tips-wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .tips-heading {
   display: block;
   margin: auto;
@@ -167,6 +182,7 @@ body {
   padding: 0;
   height: 540px;
   vertical-align: top;
+  background-color: #eff0e9;
 }
 .tt-title-caption {
   min-height: 118px;
@@ -201,23 +217,24 @@ body {
   color: #000000e0;
   padding-right: 5px;
 }
-
 .tips-content {
   display: inline-block;
 }
 .tips-button {
   margin-bottom: 10px;
-  background-color: #b5d9dd;
-  border: 1px solid #b9d3d6;
+  background-color: transparent;
+  border: 2px solid #f7d659;
   border-radius: 10px;
   padding: 2px 7px;
 }
 .tips-button:hover {
-  background-color: #b5d9dd;
+  background-color: #f7d659;
   opacity: 1;
   cursor: pointer;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+/* Working hours section */
+
 section table {
   background: rgb(238, 174, 202);
   background: radial-gradient(
