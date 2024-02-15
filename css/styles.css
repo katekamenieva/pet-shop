@@ -2,6 +2,9 @@ body {
   font-family: "Josefin Sans", sans-serif;
   background-color: #ebe3cc;
 }
+*::selection {
+  background: #ffdc26;
+}
 /* Navigation styles: */
 
 .header {
